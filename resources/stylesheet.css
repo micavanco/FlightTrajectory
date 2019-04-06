@@ -1,0 +1,21 @@
+*
+{
+    font-family: "Century Gothic";
+}
+
+QPushButton
+{
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+QPushButton::hover
+{
+    background: rgba(123,123,123,0.1);
+}
+
+QPushButton::pressed
+{
+    background: rgba(123,123,123,0.9);
+}
