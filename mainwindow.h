@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+#include "chart.h"
+
 namespace Ui {
 class MainWindow;
 }
@@ -20,6 +22,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+    Chart *m_chart;
+    QScatterSeries *m_chartSeries;
 };
 
 #endif // MAINWINDOW_H
