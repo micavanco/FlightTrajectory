@@ -57,6 +57,9 @@
           <property name="suffix">
            <string>ms</string>
           </property>
+          <property name="minimum">
+           <number>1000</number>
+          </property>
           <property name="maximum">
            <number>9999</number>
           </property>
@@ -80,6 +83,82 @@
            <double>0.100000000000000</double>
           </property>
          </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="verticalLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>231</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QLabel" name="parametersLabel">
+          <property name="text">
+           <string>Flight parameters:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="initialLabel">
+            <property name="text">
+             <string>Initial speed:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="initialValue">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <widget class="QLabel" name="heightLabel">
+            <property name="text">
+             <string>Max height:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="heightValue">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item>
+           <widget class="QLabel" name="apogeeLabel">
+            <property name="text">
+             <string>Time to apogee:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="apogeeValue">
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </item>
        </layout>
       </widget>
